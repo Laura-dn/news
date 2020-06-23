@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import Header from "../header";
+import Aside from "../aside";
+import Main from "../main";
 
 import "./app.css";
-import Header from "../header";
+
 
 export default class App extends Component {
     state = {
@@ -10,7 +13,13 @@ export default class App extends Component {
 
     render() {
         return (
-            <Header />
+            <>
+                <Header />
+                <section className="d-flex justify-content-around">
+                    <Aside />
+                    <Main />
+                </section>
+            </>
         );
     }
 }
