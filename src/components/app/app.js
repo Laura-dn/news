@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import "./app.css";
+import Header from "../header";
 
 export default class App extends Component {
     state = {
@@ -9,8 +10,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <>
-            </>
+            <Header />
         );
     }
 }
