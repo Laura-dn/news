@@ -4,8 +4,10 @@ import "./header.css";
 
 function Header() {
     return(
-        <header>
-            <img src="src/images/mynews-logo.png" alt="mynews-logo" width="200" height="50" />
+        <header className="navbar navbar-expand-lg navbar-light bg-light">
+                    <a href="#" className="logo"></a>
+                    <input className="form-control mr-sm-2" type="text" placeholder="&#128269; Поиск тем, мест и источников" />
+                    <button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
         </header>
     );
 }
