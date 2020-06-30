@@ -13,7 +13,7 @@ function Aside() {
     ];
 
     return(
-        <aside className="list-group">
+        <aside className="list-group col-2">
             {
                 asideMenu.map((el, index) => {
                     return(<a href="#" 

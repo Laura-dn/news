@@ -6,7 +6,7 @@ function Main() {
 
 
     return(
-        <main className="">
+        <main className="col-6">
             <article>
                 <h4>Какая-то очень важная статья/новость</h4>
                 <div>
